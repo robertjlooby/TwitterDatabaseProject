@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>CSPP 53001 TBP</title>
+  <link rel="stylesheet" type="text/css" href="http://reset5.googlecode.com/hg/reset.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<p>Show information on the <a href="table_info.php">tables.</a></p>
+	<p>Show all of the <a href="trending.php">trending tags.</a></p>
+	<p>Show all of the <a href="trendingat.php">trending locations.</a></p>
+	<form method=get action="friendsof.php">
+		Show all friends of a user (ex. b96):
+		<input type="text" name="username">
+		<input type="submit" value="Submit">
+	</form>
+	<form method=get action="homescreen.php">
+		Show a user's homescreen (ex. b96):
+		<input type="text" name="username">
+		<input type="submit" value="Submit">
+	</form>
+	<form method=get action="wall.php">
+		Show a user's wall (ex. b96):
+		<input type="text" name="username">
+		<input type="submit" value="Submit">
+	</form>
+	<form method=get action="tagged.php">
+		Show tweets with a given tag (ex. bno):
+		<input type="text" name="tag">
+		<input type="submit" value="Submit">
+	</form>
+	<form method=get action="taggedat.php">
+		Show tweets from a given location(ex. MBB):
+		<input type="text" name="locationtag">
+		<input type="submit" value="Submit">
+	</form>
+	<form method=get action="subtagged.php">
+		Show tweets with a subtag of a given tag (ex. bna):
+		<input type="text" name="tag">
+		<input type="submit" value="Submit">
+	</form>
+	<form method=get action="subtaggedat.php">
+		Show tweets from a sublocation of a given location(ex. MBA):
+		<input type="text" name="locationtag">
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
